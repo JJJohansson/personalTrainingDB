@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 7.5s linear;
+  height: 80px;
+  margin: auto;
+}
+
+.App-header {
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+table {
+  text-align: middle;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+tr, td {
+  border-bottom: 2px solid lightgrey;
+}
+
+#customers, #trainings, #calendar {
+  margin: 0 auto;
+  width: 70%;
+}
+
+#calendar {
+  margin-top: 1em;
+  height: 700px;
+}
+
+.nav-tabs {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+li.dropdown {
+  float: right;
+}
+
+#modalForm {
+  visibility: visible;
+}
+
+#formButtons > * {
+  margin-left: 0.5em;
+  float: right;
+}
+
+.modal-content {
+  height: 640px;
+}
+
+#asd > div > div {
+  height: 400px;
+}
+
+div.react-confirm-alert-button-group > button:first-of-type {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+
+div.react-confirm-alert-button-group > button:last-of-type {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
